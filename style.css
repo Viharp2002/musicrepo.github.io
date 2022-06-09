@@ -1,0 +1,294 @@
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+    body {
+        background-color: black;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .songName{
+        cursor:text;
+    }
+    nav {
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .whenhover{
+        border: 2px;
+        border-radius: 4px;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        box-shadow: 20px 20px 50px 10px pink inset;
+    }
+                                        
+    nav ul {
+        text-align: center;
+        display: flex;
+        list-style-type: none;
+         height: 55px;
+        background-color: black;
+        color: white;
+         }
+         
+         nav ul li {
+             padding: 0 12px;
+             align-items: center;
+             margin: 20px;
+             font-size: 20px;
+         }
+         
+         .brand img {
+             width: 100px;
+             height: 90px;
+         }
+         
+          .brand {
+             display: flex;
+             text-align: center;
+                                            font-weight: bolder;
+                                            font-size: 40px;
+                                        }
+                                        
+                                        .container {
+                                            min-height: 72vh;
+                                            background-color: black;
+                                            color: white;
+                                            font-family: cursive;
+                                            display: flex;
+                                            margin: 23px auto;
+                                            width: 70%;
+                                            border-radius: 12px;
+                                            padding: 34px;
+                                            background-image: url("bg.jpg");
+                                            background-position: center;
+                                            background-size: contain;
+                                            background-repeat: no-repeat;
+                                        }
+                                        
+                                        h1 {
+                                            margin: 10px;
+                                            font-size: 3.9vw;
+                                            color: pink;
+                                        }
+                                        
+                                        .bottom {
+                                            position: fixed;
+                                            height: 100px;
+                                            background-color: black;
+                                            bottom: 0;
+                                            color: white;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            flex-direction: column;
+                                            bottom: 0;
+                                            left: 0px;
+                                            width: 100%;
+                                        }
+                                        
+                                        #myprogressbar {
+                                            width: 80vw;
+                                            cursor: pointer;
+                                            position: relative;
+                                            top: 50px;
+                                        }
+                                        
+                                        .icons {
+                                            margin: 10px;
+                                            cursor: pointer;
+                                        }
+                                        
+                                        .songitem {
+                                            height: 50px;
+                                            display: flex;
+                                            background-color: white;
+                                            color: black;
+                                            width: 60%;
+                                            margin: 12px 0;
+                                            justify-content: space-between;
+                                            align-items: center;
+                                            border-radius: 34px;
+                                            cursor: default;
+                                        }
+                                        
+                                        .songitem img {
+                                            width: 50px;
+                                            margin: 0 23px;
+                                            border-radius: 34px;
+                                        }
+                                        
+                                        .timestamp {
+                                            margin: 0 13px;
+                                        }
+                                        
+                                        .songitemcontainer {
+                                            margin-top: 74px;
+                                        }
+                                        
+                                        .songinfo {
+                                            position: absolute;
+                                            left: 10vw;
+                                            font-family: cursive;
+                                        }
+                                        
+                                        .songinfo img {
+                                            opacity: 0;
+                                            transition: opacity is ease-in;
+                                        }
+                                        
+                                        .songName {
+                                            font-size: 20px;
+                                            right: 120px;
+                                        }
+                                        
+                                        #skipsec {
+                                            position: relative;
+                                            left: 58px;
+                                            bottom: 9px;
+                                        }
+                                        
+                                        #moveback {
+                                            position: relative;
+                                            right: 105px;
+                                            top: 59px;
+                                        }
+                                        
+                                        #masterSongName {
+                                            position: relative;
+                                            bottom: 90px;
+                                            right: 120px;
+                                        }
+                                        
+                                        #gif {
+                                            position: relative;
+                                            bottom: 80px;
+                                            right: 130px;
+                                            width: 70px;
+                                        }
+                                        
+                                        #previous {
+                                            bottom: 10px;
+                                        }
+                                        
+                                        .vihar1 {
+                                            position: relative;
+                                            right: 90px;
+                                            top: 29px;
+                                            color: blanchedalmond;
+                                            font-size: 17px;
+                                        }
+                                        
+                                        .vihar2 {
+                                            position: relative;
+                                            left: 194px;
+                                            bottom: 39px;
+                                            color: blanchedalmond;
+                                            font-size: 17px;
+                                        }
+                                        
+                                        #masterPlay {
+                                            bottom: 10px;
+                                        }
+                                        
+                                        #next {
+                                            bottom: 10px;
+                                        }
+                                        
+                                        @media (max-width:444px) {
+                                            .songName {
+                                                font-size: 12px;
+                                            }
+                                            .h11 {
+                                                font-size: x-large;
+                                            }
+                                            .songitem {
+                                                width: 100%;
+                                            }
+                                            .rotateLeft {
+                                                width: 10%;
+                                            }
+                                            .rotateRight {
+                                                width: 1%;
+                                            }
+                                            #previous {
+                                                left: 25px;
+                                                top: -4px;
+                                            }
+                                            #masterPlay {
+                                                top: -6px;
+                                                left: 25px;
+                                            }
+                                            #next {
+                                                left: 25px;
+                                                top: -4px;
+                                            }
+                                            #moveback {
+                                                left: -53px;
+                                                top: 67px;
+                                            }
+                                            #skipsec {
+                                                left: 54px;
+                                                bottom: 2px;
+                                            }
+                                            .vihar1 {
+                                                left: -39px;
+                                                top: 35px;
+                                            }
+                                            .vihar2 {
+                                                left: 190px;
+                                                bottom: 33px;
+                                            }
+                                            #masterSongName {
+                                                font-size: 12px;
+                                                position: relative;
+                                                bottom: 100px;
+                                                left: -85px;
+                                            }
+                                            #gif {
+                                                position: relative;
+                                                bottom: 80px;
+                                                right: 130px;
+                                            }
+                                        }
+                                        
+                                        @media (min-width: 445px) and (max-width: 960px) {
+                                            .songitem {
+                                                width: 100%;
+                                            }
+                                            #masterSongName {
+                                                font-size: 12px;
+                                                bottom: 105px;
+                                                left: -50px;
+                                            }
+                                            #previous {
+                                                left: 17px;
+                                            }
+                                            #masterPlay {
+                                                left: 17px;
+                                            }
+                                            #next {
+                                                left: 17px;
+                                            }
+                                            #moveback {
+                                                left: -60px
+                                            }
+                                            #skipsec {
+                                                left: 45px;
+                                            }
+                                            .vihar1 {
+                                                left: -45px
+                                            }
+                                            .vihar2 {
+                                                left: 180px;
+                                            }
+                                        }
+                                        
+                                        @media (min-width: 960px) and (max-width: 1326px) {
+                                            #masterSongName {
+                                                font-size: 15px;
+                                                bottom: 100px;
+                                                right: 10px;
+                                            }
+                                            #gif {
+                                                width: 0%;
+                                            }
+                                        }

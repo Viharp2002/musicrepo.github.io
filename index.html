@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotifty</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="spotify">Vihar</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1 class="h11">enjoy!! listening unlimited with love-spring</h1>
+            <div class="songitemcontainer">
+                <div class="songitem" id="0" >
+                    <img src="1.jpg" alt="1">
+                    <span class="songName"><b id="0">Shiddat title track - Shiddat</b></span>
+                    <span class="songlistplay"><span class="timestamp">03.50</span></span>
+                </div>
+                <div class="songitem" id="1">
+                    <img src="2.jpg" alt="1">
+                    <span class="songName"><b id="1">Jannat jahan - Jannat</b></span>
+                    <span class="songlistplay"><span class="timestamp">03.46</span></span>
+                </div>
+                <div class="songitem" id="2">
+                    <img src="3.jpg" alt="1">
+                    <span class="songName"  ><b id="2">Aaj ro len de - 1920 London</b></span>
+                    <span class="songlistplay"><span class="timestamp">05.00</span></span>
+                </div>
+                <div class="songitem" id="3">
+                    <img src="4.jpg" alt="1">
+                    <span class="songName"  ><b id="3">Ae mere humsafar - Qayamat Se Qayamat</b></span>
+                    <span class="songlistplay"><span class="timestamp">05.14</span></span>
+                </div>
+                <div class="songitem" id="4">
+                    <img src="5.jpg" alt="1">
+                    <span class="songName"><b id="4">Me yaha Tu wahan - Baghban</b></span>
+                    <span class="songlistplay"><span class="timestamp">4.46</span></span>
+                </div>
+                <div class="songitem" id="5">
+                    <img src="6.jpg" alt="1">
+                    <span class="songName" ><b id="5">Agar Tum Mil Jao - Zeher</b></span>
+                    <span class="songlistplay"><span class="timestamp">06.25</span></span>
+                </div>
+                <div class="songitem" id="6">
+                    <img src="7.jpg" alt="1">
+                    <span class="songName" ><b id="6">Bheed Main - Tumsa Na Dekha</b></span>
+                    <span class="songlistplay"><span class="timestamp">05.26</span></span>
+                </div>
+                <div class="songitem" id="7">
+                    <img src="8.jpg" alt="1">
+                    <span class="songName"  ><b id="7">Dil Diya Hai - Masti</b></span>
+                    <span class="songlistplay"><span class="timestamp">06.04</span></span>
+                </div>
+                <div class="songitem" id="8">
+                    <img src="9.jpg" alt="1">
+                    <span class="songName" ><b id="8">Abhi Abhi - Jism 2</b></span>
+                    <span class="songlistplay"><span class="timestamp">06.01</span></span>
+                </div>
+                <div class="songitem" id="9">
+                    <img src="10.jpg" alt="1">
+                    <span class="songName" ><b id="9">Ye Jism Hai - Jism 2</b></span>
+                    <span class="songlistplay"><span class="timestamp">03.55</span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songlistener">
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" max="100" value="0">
+        <div class="icons">
+            <!--fontawesome icons-->
+            <i class="fa-solid fa-3x fa-arrow-rotate-left rotateLeft" id="moveback"></i>
+            <div class="vihar1"><b>10</b></div>
+            <i class="fas fa-3x fa-step-backward fafa" id="previous" style="position: relative; bottom: 10px"></i>
+            <i class="far fa-3x fa-play-circle fafa" id="masterPlay" style="position: relative; bottom: 10px"></i>
+            <i class="fas fa-3x fa-step-forward fafa" id="next" style="position: relative; bottom: 10px"></i>
+            <i class="fa-solid fa-3x fa-arrow-rotate-right rotateRight" id="skipsec"></i>
+            <div class="vihar2"><b>10</b</div>
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" alt="gif" id="gif"><span id="masterSongName">Shiddat Title Track - Manan Bhardwaj</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/c4c7be7866.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
